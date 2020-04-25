@@ -13,10 +13,8 @@ public class Main {
 	    list.removeFromTo(1,3);
 	    list.toArray();
 
-	    for (int i = 0; i < list.size - 1; i++) {
+	    for (int i = 0; i < list.size; i++) {
 	    	System.out.println(list.get(i));
 		}
-
-
     }
 }
